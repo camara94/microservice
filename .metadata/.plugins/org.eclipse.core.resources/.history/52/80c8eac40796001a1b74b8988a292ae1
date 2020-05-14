@@ -1,0 +1,20 @@
+package tn.rnu.isetjb.mastere.admin;
+
+import lombok.Builder;
+import lombok.Data;
+
+/**
+ * @author Laby D. Camara | ldamaro98@gmail.com
+ * 
+ * @since 0.0.1
+ * @version 0.0.1
+ */
+@Data
+@Builder
+public class KeycloakAdminClientConfig {
+
+    private String serverUrl;
+    private String realm;
+    private String clientId;
+    private String clientSecret;
+}

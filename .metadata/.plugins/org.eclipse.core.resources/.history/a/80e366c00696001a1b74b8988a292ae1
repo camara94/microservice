@@ -1,0 +1,5 @@
+package tn.rnu.isetjb.mastere.admin.security;
+
+public class CurrentUserProvider {
+
+}
